@@ -76,4 +76,5 @@ task createWrapper(type: Wrapper) {
 };
 Then run command:
 cd android && gradlew signinReport
+Other info: https://www.behance.net/gallery/89146237/Handy-Digital-health-assistant
 
