@@ -69,3 +69,11 @@ This project contains `google-services.json` file of my own. You can connect you
 ## Maintainers
 [Kanan Yusubov](https://github.com/yusubx)
 
+Stuff to do before running the flutter app: 
+Add code below to the bottom of build.gradle file
+task createWrapper(type: Wrapper) {
+    gradleVersion = '4.9'
+};
+Then run command:
+cd android && gradlew signinReport
+
